@@ -1,0 +1,47 @@
+.Flex{
+    border: 3px solid black;
+    background-color: #4e57ff4f;
+    margin: 50px 20px;
+    display: flex;
+    /*Conteiner modo Linha */
+    /*flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;*/
+    
+    align-items: center;
+    flex-flow: row nowrap;
+    
+    /*Conteiner modo coluna */
+
+    /*flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;*/
+
+    height: 300px;
+}
+
+.item{
+    background-color: #4e56ff;
+    border: 3px solid green;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 25px;
+    color: white;
+}
+
+.start{
+    flex-grow: 1;
+    align-self: flex-start;
+}
+
+.end{
+    flex-grow: 2;
+    align-self: flex-end;
+}
+
+.stretch{
+    flex-grow: 4;
+    align-self: stretch;
+}

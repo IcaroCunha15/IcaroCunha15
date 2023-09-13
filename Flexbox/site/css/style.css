@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #dedede;
+    align-items: center;
+}
+
+.nav-menu{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
