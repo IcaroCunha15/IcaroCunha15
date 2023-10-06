@@ -26,10 +26,11 @@
 </head>
 <body>
     <main>
+        <a href="../index.php">Home</a>
         <h1>Usuários</h1>
         <header>
             <nav>
-                <a href="#">Novo</a>
+                <a href="new.php">Novo</a>
             </nav>
         </header>
 
