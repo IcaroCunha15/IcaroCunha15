@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Superioresquerda{
+    width: 200px; height: 200px;
+    background-color: purple;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    margin-left: 0px;
+    margin-top: 0%;
+    margin-top: 10px;
+}
+.Superiordireita{
+    width: 200px; height: 200px;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    margin-right: 10px;
+}
+.Inferiordireita{
+    width: 200px; height: 200px;
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    margin-right: 10px;
+}
+.Inferioresquerda{
+    width: 200px; height: 200px;
+    background-color: green;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin-left: 10px;
+}

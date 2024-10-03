@@ -1,0 +1,32 @@
+.Superioresquerda{
+    position: fixed;
+    width: 300px; /*largura*/
+    height: 150px; /*altura*/
+    top: 5px;  /*5 pixels a partir do topo da página*/
+    left: 5px; /*5 pixels a partir da margem esquerda da página*/
+    background-color: #ff0000; /*cor de fundo do div*/
+}
+.Superiordireita{
+    position: fixed;
+    width: 300px;
+    height: 150px;
+    top: 5px;
+    left: 1050px;
+    background-color: #ffff00;
+}
+.Inferioresquerda{
+    position: fixed;
+    width: 300px;
+    height: 150px;
+    top: 500px;
+    left: 5px;
+    background-color: #00ff00;
+}
+.Inferiordireita{
+    position: fixed;
+    width: 300px;
+    height: 150px;
+    top: 500px;
+    left: 1050px;
+    background-color: #0000ff;
+}

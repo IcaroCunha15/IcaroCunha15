@@ -1,0 +1,31 @@
+h3:focus{
+    background-color: #ccc;
+}
+p:focus{
+    outline: 2px dotted blue;
+}
+li :nth-child(1):focus{
+    color: green;
+}
+li :nth-child(2):focus{
+    font-size: 150%;
+}
+li :nth-child(3):focus{
+    text-decoration: underline;
+}
+input:focus{
+    background: yellow;
+    border: 1px solid black;
+}
+a:hover{
+    background-color: red;
+}
+#t1{
+    color: red;
+}
+#t2{
+    color: green;
+}
+#t3{
+    color: gray;
+}

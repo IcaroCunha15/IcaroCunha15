@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: white;
+}
+p strong{
+    color: white;
+}
+main{
+    text-align: center;
+}
+h1 p ul{
+    text-align: left;
+}
